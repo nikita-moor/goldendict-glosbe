@@ -1,0 +1,49 @@
+a.glosbe-lang {
+  color: green;
+}
+
+.glosbe-list {
+  counter-reset: glosbe-counter;
+}
+
+.glosbe-list dt {
+  font-weight: bold;
+  padding-left: 40px;
+  position: relative;
+}
+
+.glosbe-list dd {
+  font-style: italic;
+  margin-left: 40px;
+}
+
+.glosbe-list dt:before {
+  content: counter(glosbe-counter) ".";
+  counter-increment: glosbe-counter;
+  color: blue;
+  position: absolute;
+  left: 10px;
+  display: inline-block;
+  width: 1.5em;
+  text-align: right;
+}
+
+.glosbe-examples {
+  counter-reset: glosbe-counter;
+  padding-left: 40px;
+}
+
+.glosbe-examples dt {
+  display: list-item;
+  list-style-type: circle;
+}
+
+.glosbe-examples dd {
+  color: blue;
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+
+strong.glosbe-keyword {
+  background: yellow;
+}
