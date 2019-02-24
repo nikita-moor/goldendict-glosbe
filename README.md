@@ -18,4 +18,4 @@ Use ISO 693-3 three letter language code:
 
 # Comments
 
-The script uses official Glosbe RESTful API and cache requests.
+The script uses official Glosbe RESTful API and caches requests.
