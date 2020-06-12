@@ -1,6 +1,6 @@
 # Warning
 
-***It doesn't work with new API!***
+***Doesn't work with the new API!***
 
 # glosbe-wrapper
 Python script to use Glosbe.com in GoldenDict
